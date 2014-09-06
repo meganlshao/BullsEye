@@ -21,6 +21,7 @@
 		AF0DE23719B989B2001950E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF0DE21919B989B2001950E5 /* UIKit.framework */; };
 		AF0DE23F19B989B2001950E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF0DE23D19B989B2001950E5 /* InfoPlist.strings */; };
 		AF0DE24119B989B2001950E5 /* BullsEyeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0DE24019B989B2001950E5 /* BullsEyeTests.m */; };
+		AFE4EFB619BAFF37000F563B /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE4EFB519BAFF37000F563B /* AboutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		AF0DE23C19B989B2001950E5 /* BullsEyeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BullsEyeTests-Info.plist"; sourceTree = "<group>"; };
 		AF0DE23E19B989B2001950E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF0DE24019B989B2001950E5 /* BullsEyeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullsEyeTests.m; sourceTree = "<group>"; };
+		AFE4EFB419BAFF37000F563B /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		AFE4EFB519BAFF37000F563B /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				AF0DE22719B989B2001950E5 /* Main.storyboard */,
 				AF0DE22A19B989B2001950E5 /* MSViewController.h */,
 				AF0DE22B19B989B2001950E5 /* MSViewController.m */,
+				AFE4EFB419BAFF37000F563B /* AboutViewController.h */,
+				AFE4EFB519BAFF37000F563B /* AboutViewController.m */,
 				AF0DE22D19B989B2001950E5 /* Images.xcassets */,
 				AF0DE21C19B989B2001950E5 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				AF0DE22619B989B2001950E5 /* MSAppDelegate.m in Sources */,
 				AF0DE22C19B989B2001950E5 /* MSViewController.m in Sources */,
+				AFE4EFB619BAFF37000F563B /* AboutViewController.m in Sources */,
 				AF0DE22219B989B2001950E5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
