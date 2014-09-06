@@ -22,6 +22,7 @@
 		AF0DE23F19B989B2001950E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF0DE23D19B989B2001950E5 /* InfoPlist.strings */; };
 		AF0DE24119B989B2001950E5 /* BullsEyeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0DE24019B989B2001950E5 /* BullsEyeTests.m */; };
 		AFE4EFB619BAFF37000F563B /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE4EFB519BAFF37000F563B /* AboutViewController.m */; };
+		AFE4EFB819BB0B74000F563B /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = AFE4EFB719BB0B74000F563B /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		AF0DE24019B989B2001950E5 /* BullsEyeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullsEyeTests.m; sourceTree = "<group>"; };
 		AFE4EFB419BAFF37000F563B /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		AFE4EFB519BAFF37000F563B /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		AFE4EFB719BB0B74000F563B /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = BullsEye.html; path = "../../The iOS Apprentice 1 - Getting Started/Resources/BullsEye.html"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		AF0DE21B19B989B2001950E5 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				AFE4EFB719BB0B74000F563B /* BullsEye.html */,
 				AF0DE22419B989B2001950E5 /* MSAppDelegate.h */,
 				AF0DE22519B989B2001950E5 /* MSAppDelegate.m */,
 				AF0DE22719B989B2001950E5 /* Main.storyboard */,
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF0DE22E19B989B2001950E5 /* Images.xcassets in Resources */,
+				AFE4EFB819BB0B74000F563B /* BullsEye.html in Resources */,
 				AF0DE22019B989B2001950E5 /* InfoPlist.strings in Resources */,
 				AF0DE22919B989B2001950E5 /* Main.storyboard in Resources */,
 			);
